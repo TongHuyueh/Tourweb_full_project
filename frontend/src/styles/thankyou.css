@@ -1,0 +1,56 @@
+.thank__you span i {
+    font-size: 4rem;
+    color: green;
+
+}
+.thank__you h1{
+    font-size: 3.5rem;
+}
+
+.thank__you .btn{
+    background: var(--primary-color);
+
+}
+
+.thank__you .btn:hover{
+    background: rgb(196, 181, 154);
+
+}
+
+.thank__you .btn__return{
+    text-decoration: none;
+    color: var(--texting-color);
+}
+
+@media screen and (max-width: 883px){
+    .thank__you h1{
+        font-size: 2.3rem;
+    }
+
+    .thank__you .btn{
+        font-size: 1rem;
+    }
+
+    .thank__you h3{
+        font-size: 1.2rem;
+    }  
+    
+}
+
+@media screen and (max-width: 576px){
+    .thank__you h1{
+        font-size: 2rem;
+    }
+
+    .thank__you .btn{
+        font-size: .8rem;
+    }
+
+    .thank__you h3{
+        font-size: .8rem;
+    }
+ 
+}
+    
+
+

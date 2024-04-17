@@ -1,0 +1,14 @@
+.common__section{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../assets/images/tour.jpg') no-repeat center;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; 
+    margin-top: 3rem;
+}
+
+.common__section h1{
+   color: #fff;
+}
